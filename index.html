@@ -1,0 +1,106 @@
+<style>
+.width{
+  height: 60px;
+}
+.pad{
+  padding-top:15px ;
+}
+.fonts{
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+}
+.fonta{
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+}
+section{
+  margin-top: 230px;
+  margin-left: 300px;
+
+   padding-left:10em;
+   padding-right:20em
+}
+header
+{
+  margin-left: 50px;
+}
+article{
+  padding-top: 20px;
+
+}
+footer
+{
+  padding-top: 30px;
+  padding-left: 200px;
+}
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url(www.ConnectN.com) no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+</style>
+<html>
+  <head>
+    <link rel="stylesheet" href="E:\ConnectN\front\css\main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cardo|Pacifico" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="E:\ConnectN\front\images\favicon.ico"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <title>
+      ConnectN
+      </title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+  <body>
+    <nav class="navbar fixed-top navbar-light bg-light width">
+  <a class="navbar-brand fonts" href="#">
+    <img src="E:\ConnectN\front\images\logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    ConnectN
+  </a>
+<div class="pad">
+  <form class="form-inline">
+    <div class="input-group-prepend">
+
+
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+&nbsp
+      <input type="password" class="form-control" placeholder="Password">
+      &nbsp
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+    </div>
+  </form>
+</div>
+
+</nav>
+<section>
+  <video autoplay muted loop id="myVideo">
+<source src="E:\ConnectN\front\images\banner.mp4" type="video/mp4">
+</video>
+  <div>
+
+
+    <header class="fonts">
+      This is ConnectN
+      </header>
+      <article class="fonta">
+      <p>A platform for LNMIIT students to share and post vidoes and they can also sell old stuff and write stories and many other such things.</p>
+    </article>
+      <footer>
+    <button type="button" class="btn btn-primary btn-lg">SignUp</button>
+  </footer>
+
+  </div>
+
+</section>
+
+    </body>
+  </html>
